@@ -1,0 +1,28 @@
+.header {
+    display: grid;
+    grid-template-columns: 200px 400px repeat(2, 1fr);
+    grid-template-rows: 60px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background-color: #1064A6;
+}
+
+.div1 {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.div2 {
+    grid-area: 1 / 2 / 2 / 4;
+}
+
+.div3 {
+    grid-area: 1 / 4 / 2 / 6;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.account, .process .cart {
+    margin: 0; 
+    text-align: left;
+}
+
